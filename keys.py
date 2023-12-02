@@ -1,2 +1,0 @@
-TELEGRAM_KEY = None
-OPENAI_KEY = None
