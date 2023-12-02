@@ -1,11 +1,14 @@
 from time import sleep
 from openai import OpenAI
 import os
+
+client = OpenAI() 
+
+
+
 from dotenv import load_dotenv
 
 load_dotenv()
-
-client = OpenAI() 
 
 
 limit = 128000 # depends on the model
@@ -57,15 +60,15 @@ def askGPT(filePath, question)-> str:
     with open(filePath, "r") as f:
         aux = f.read()
         while len(aux) >= limit:
-            print(analizeLog(aux[:limit]))
+            analizeLog(aux[:limit])
             aux = aux[limit:]
             sleep(1)
 
     if aux:
-        print(analizeLog(aux))
+        analizeLog(aux)
     
     answer = analizeLog("EOF From the previous sent log, "+question)
-    print(answer)
+    
     return answer
 
 
@@ -78,3 +81,9 @@ client.api_key = os.getenv("OPENAI_API_KEY")
 
 
 
+def restartConversation():
+    global messag, history_bot, history_user
+    messag = None
+    history_bot = None
+    history_user = None
+    print("Conversation restarted")
