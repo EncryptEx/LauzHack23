@@ -77,7 +77,7 @@ async def process_file(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 
 async def answer_question(update: Update, context: ContextTypes.DEFAULT_TYPE):
     #await update.message.reply_text("Write your question and press enter, \n if you have no questions send /cancel")
-    await context.bot.send_message(update.effective_chat.id ,text="Write your question and press enter, \n if you have no questions send /cancel")
+    await update.message.reply_text(text="Write your question and press enter, \n if you have no questions send /cancel")
 
     return QUESTION
 
