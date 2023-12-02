@@ -1,11 +1,12 @@
 from time import sleep
 from openai import OpenAI
 import os
-client = OpenAI() 
-
 from dotenv import load_dotenv
 
 load_dotenv()
+
+client = OpenAI() 
+
 
 limit = 128000 # depends on the model
 

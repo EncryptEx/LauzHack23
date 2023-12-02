@@ -14,8 +14,11 @@ from telegram.ext import (
     MessageHandler,
     filters,
 )
+import sys
 
-#from ai.gpt_core import askGPT
+sys.path.append('/home/joff/repos/LauzHack23/')
+from ai.gpt_core import askGPT
+
 load_dotenv()
 TELEGRAM_KEY = os.getenv("TELEGRAM_KEY")
 
@@ -65,15 +68,11 @@ async def process_file(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 
     ## LLAMAR A función de Jaumet i Paulet
     # read txt
-    #askGPT(tmp_file, "What is the latest log?")
-    with open(tmp_file, 'r') as file:
-        # Read the first line
-        first_line = file.readline()
+    response = askGPT(tmp_file, "What is the latest log?")
 
-        # Call for openAI to reply with features
-
-
-    await update.message.reply_document(tmp_file, caption=f"The first line: {first_line}")
+    print("JAUMET")
+    print(response)
+    await update.message.reply_text(tmp_file, caption=f"The answer: {response}")
 
     return AWAITING_USER #answer question
 
