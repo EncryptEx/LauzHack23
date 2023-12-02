@@ -1,5 +1,12 @@
 
-import openai
+from openai import OpenAI
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+
+client = OpenAI()
 
 
 def analizeLog(prompt):
@@ -16,12 +23,8 @@ def analizeLog(prompt):
         messag.append({"role": "system", "content": str(bot_message)})
     messag.append({"role": "user", "content": str(prompt)})
 
-    response = openai.ChatCompletion.create(
-        
-    # please use gtp3.5 although gpt4 is much better for $$
-    model="gpt-3.5-turbo",
-        messages=messag
-    )
+    response = client.chat.completions.create(model="gpt-3.5-turbo",
+        messages=messag)
     result = ''
     for choice in response.choices:
         result += choice.message.content
@@ -30,5 +33,3 @@ def analizeLog(prompt):
     return result
 
 
-
-analizeLog("")
