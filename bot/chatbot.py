@@ -15,6 +15,7 @@ from telegram.ext import (
     filters,
 )
 
+#from ai.gpt_core import askGPT
 load_dotenv()
 TELEGRAM_KEY = os.getenv("TELEGRAM_KEY")
 
@@ -40,7 +41,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 
     await update.message.reply_text(
         f"Hi! {user.first_name} My name is OpenLogsLauz. I will hold a conversation with you and analyze logs files that you send me"
-        "Send /cancel to stop talking to me.\n\n",
+        "\nSend /cancel to stop talking to me.\n\n",
         reply_markup=ReplyKeyboardMarkup(
             reply_keyboard, one_time_keyboard=True, input_field_placeholder="Process file?"
         ),
@@ -64,6 +65,7 @@ async def process_file(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 
     ## LLAMAR A función de Jaumet i Paulet
     # read txt
+    #askGPT(tmp_file, "What is the latest log?")
     with open(tmp_file, 'r') as file:
         # Read the first line
         first_line = file.readline()
@@ -77,7 +79,7 @@ async def process_file(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 
 async def answer_question(update: Update, context: ContextTypes.DEFAULT_TYPE):
     #await update.message.reply_text("Write your question and press enter, \n if you have no questions send /cancel")
-    await update.message.reply_text(text="Write your question and press enter, \n if you have no questions send /cancel")
+    await update.message.reply_text(text="Write your question and press enter, \n if you have no questions send /cancel", reply_markup=ForceReply(selective=True))
 
     return QUESTION
 
