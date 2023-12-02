@@ -77,3 +77,9 @@ client.api_key = os.getenv("OPENAI_API_KEY")
 
 
 
+def restartConversation():
+    global messag, history_bot, history_user
+    messag = None
+    history_bot = None
+    history_user = None
+    print("Conversation restarted")
