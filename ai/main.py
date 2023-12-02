@@ -70,7 +70,10 @@ def askGPT(filePath, question)-> str:
 
 client.api_key = os.getenv("OPENAI_API_KEY")
 
-fp = "/home/jaume/Desktop/CODE/LauzHack23/bot/examples/auth.log"
-question = "Did the user jonny delete any program?"
+# fp = "/home/jaume/Desktop/CODE/LauzHack23/bot/examples/auth.log"
+# question = "Did the user jonny delete any program?"
 
-print(askGPT(fp, question))
+# print(askGPT(fp, question))
+
+
+
