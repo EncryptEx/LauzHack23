@@ -17,11 +17,17 @@ bot.
 
 import logging
 
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from the .env file
+load_dotenv()
+
 from telegram import ForceReply, Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
-from keys import TELEGRAM_KEY 
 
-print(TELEGRAM_KEY)
+TELEGRAM_KEY = os.getenv("TELEGRAM_KEY")
+
 # Enable logging
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
