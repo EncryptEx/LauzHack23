@@ -62,6 +62,7 @@ async def process_file(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     tmp_file = "tmp/attachment.txt"
     await attachment_file.download_to_drive(tmp_file)
 
+    ## LLAMAR A función de Jaumet i Paulet
     # read txt
     with open(tmp_file, 'r') as file:
         # Read the first line
@@ -81,7 +82,7 @@ async def answer_question(update: Update, context: ContextTypes.DEFAULT_TYPE):
     return QUESTION
 
 async def questions(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    question = await update.message.text
+    question = "debug"
     await update.message.reply_text(f"HERE's your answer {question}")
 
     return AWAITING_USER
