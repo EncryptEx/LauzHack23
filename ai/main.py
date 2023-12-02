@@ -42,13 +42,13 @@ def analizeLog(prompt):
    
     messag.append({"role": "system", "content": str(result)})
    
-   
+
     return result
 
 
 
 
-def askGPT(filePath, question):
+def askGPT(filePath, question)-> str:
     aux = question+"\n "
     isFirsttime = True
     iCounter = 0
@@ -62,7 +62,10 @@ def askGPT(filePath, question):
 
     if aux:
         print(analizeLog(aux))
-    print(analizeLog("EOF From the previous sent log, "+question))
+    
+    answer = analizeLog("EOF From the previous sent log, "+question)
+    print(answer)
+    return answer
 
 
 client.api_key = os.getenv("OPENAI_API_KEY")
@@ -71,3 +74,6 @@ client.api_key = os.getenv("OPENAI_API_KEY")
 # question = "Did the user jonny delete any program?"
 
 # print(askGPT(fp, question))
+
+
+
