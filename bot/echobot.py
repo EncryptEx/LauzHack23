@@ -54,10 +54,6 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     await update.message.reply_text("Help!")
 
 
-async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """Echo the user message."""
-    await update.message.reply_text(update.message.text)
-
 async def read_file(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Echo the user a read file."""
     attachment_file = await update.message.document.get_file()
@@ -70,8 +66,13 @@ async def read_file(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         # Read the first line
         first_line = file.readline()
 
+        # Call for openAI to reply with features
+
 
     await update.message.reply_document(tmp_file, caption=f"The first line: {first_line}")
+
+async def analyze_log() -> None:
+    "Analyze a log and returns some features"
 
 
 def main() -> None:
@@ -79,17 +80,18 @@ def main() -> None:
     # Create the Application and pass it your bot's token.
     application = Application.builder().token(TELEGRAM_KEY).build()
 
-    # on different commands - answer in Telegram
+    # Basic commands of start and help
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("help", help_command))
 
+    # Command for openAI
+    application.add_handler(CommandHandler("analyze_log", analyze_log))
 
+    # Basic echo handler for files
     application.add_handler(
         MessageHandler(filters.ATTACHMENT & ~filters.COMMAND, read_file, block=True)
     )
 
-    # on non command i.e message - echo the message on Telegram
-    application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, echo))
 
     # Run the bot until the user presses Ctrl-C
     application.run_polling(allowed_updates=Update.ALL_TYPES)
