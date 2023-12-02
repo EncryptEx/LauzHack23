@@ -1,3 +1,5 @@
-python-telegram-bot[job-queue] --pre
+# Bot Requirements
 python-telegram-bot[job-queue] --pre
 python-dotenv
+
+# OpenAI
