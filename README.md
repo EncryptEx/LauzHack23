@@ -29,10 +29,12 @@ We splited the project into two main parts: the gptCore stuff, and the Telegram 
 Install Python3, git and venv.
 
 If you are using a Debian/ Debian-based OSs you can:
-    su root
-    apt install git
-    apt install Python3
-    apt install python-dotenv
+```sh
+su root
+apt install git
+apt install Python3
+apt install python-dotenv
+```
 
 Get a telegram bot API key and GPT API key. 
     You can follow these instructions to create a Telegram Bot: https://core.telegram.org/bots#how-do-i-create-a-bot.
@@ -121,5 +123,4 @@ We'd like to use a all-in-one model that can read a single file and ask question
 
 
 ## Aknowledgements
-Thanks for LauzHack for hosting the event, EPFL for the venue and OpenSystems for bringing us an amazing challenge.source env/bin/activate
-pi
+Thanks for LauzHack for hosting the event, EPFL for the venue and OpenSystems for bringing us an amazing challenge
