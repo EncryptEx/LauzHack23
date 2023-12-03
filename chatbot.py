@@ -32,7 +32,7 @@ logging.getLogger("httpx").setLevel(logging.WARNING)
 logger = logging.getLogger(__name__)
 
 
-START, PROCESSED, AWAITING_USER, QUESTION, CLOSED = range(5)
+START, PROCESSED, AWAITING_USER, QUESTION, CLOSED, SECOND_QUESTION = range(6)
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
@@ -66,40 +66,43 @@ async def process_file(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 
     await update.message.reply_text(rf"Write your question!")
     
-    await get_and_answer(update, context)
+    #await get_an_answer(update, context)
 
-    return AWAITING_USER #answer question
+    return QUESTION #answer question
     
-async def get_and_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):    
-    print("JUAMET")
+async def get_an_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):    
+
     prompt_question = update.message.text
-    print(prompt_question)
-    print("JUAMET")
+
     tmp_file = "tmp/attachment.txt"
     response = askGPT(tmp_file, prompt_question)
 
     
-    await update.message.reply_text(rf"The answer: {response}")
+    await update.message.reply_text(rf"The answer: {response}" + "\n\n Write your next question and press enter,")
 
-async def get_and_answer_two(update: Update, context: ContextTypes.DEFAULT_TYPE):    
+    return AWAITING_USER
+
+
+async def get_an_answer_two(update: Update, context: ContextTypes.DEFAULT_TYPE):    
     
     prompt_question = update.message.text
+    print(prompt_question)
     response = askAnotherQuestion(prompt_question)
 
-    await update.message.reply_text(rf"The answer: {response}")
+    await update.message.reply_text(rf"The answer: {response}  " + "\n\n Write your next question and press enter, If you have no questions send /cancel")
+    return AWAITING_USER
 
 async def answer_question(update: Update, context: ContextTypes.DEFAULT_TYPE):
     #await update.message.reply_text("Write your question and press enter, \n if you have no questions send /cancel")
-    await update.message.reply_text(text="Write your next question and press enter, \n if you have no questions send /cancel", reply_markup=ForceReply(selective=True))
+    #await update.message.reply_text(text=" \n If you have no questions send /cancel", reply_markup=ForceReply(selective=True))
+    prompt_question = update.message.text
+    print(prompt_question)
+    response = askAnotherQuestion(prompt_question)
+        
+    await update.message.reply_text(rf"The answer: {response}  " + "\n\n Write your next question and press enter, If you have no questions send /cancel")
 
-    await get_and_answer_two(update, context)
-    return AWAITING_USER
+    return SECOND_QUESTION
 
-async def questions(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    question = "debug"
-    await update.message.reply_text(f"HERE's your answer {question}")
-
-    return AWAITING_USER
 
 
 
@@ -131,7 +134,8 @@ def main() -> None:
                 MessageHandler(filters.ALL, answer_question),
                 CommandHandler("cancel", cancel)
             ],
-            QUESTION : [MessageHandler(filters.ALL, questions), CommandHandler("cancel", cancel)]
+            QUESTION : [MessageHandler(filters.ALL, get_an_answer), CommandHandler("cancel", cancel)],
+            SECOND_QUESTION : [MessageHandler(filters.ALL, get_an_answer_two), CommandHandler("cancel", cancel)]
         },
         fallbacks=[CommandHandler("cancel", cancel)],
     )
