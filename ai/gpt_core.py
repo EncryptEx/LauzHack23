@@ -6,6 +6,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
+client = OpenAI()
+
 majorhistory = []
 limit = 16000 # depends on the model
 
@@ -72,7 +75,7 @@ def askGPT(filePath, question)-> str:
     for answer in answers:
         if answer.startswith("SUCCESS"):
             return answer
-    return "INSUFFICIENT_INFO"
+    return "There is not enought information, try with another log"
 
 
 def softRestartConversation():
@@ -114,6 +117,6 @@ def askAnotherQuestion(question):
         if answer.startswith("SUCCESS"):
             return answer
         else: 
-            return "INSUFFICIENT_INFO"
+            return "There is not enought information, try with another log"
     
 
