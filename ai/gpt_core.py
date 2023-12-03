@@ -2,10 +2,6 @@ from time import sleep
 from openai import OpenAI
 import os
 
-client = OpenAI() 
-
-
-
 from dotenv import load_dotenv
 
 load_dotenv()
