@@ -15,7 +15,7 @@ We have built a Telegram chatbot that lets you upload the log file you want to a
 
 \*Uploads the log file\*
 
-IN: ` Did the user 'jonny' remove any prrogram in his computer?`
+IN: ` Did the user 'jonny' remove any program in his computer?`
 
 OUT: ` Yes! The user jonny deleted the 'google-chrome-stable' on Nov 27 at 23:57:23`
 
