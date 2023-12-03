@@ -95,10 +95,10 @@ def hardRestartConversation():
 
 client.api_key = os.getenv("OPENAI_API_KEY")
 
-fp = "/home/jaume/Desktop/CODE/LauzHack23/bot/examples/auth.log"
-question = "Did the user jonny delete any program?"
+# fp = "/home/jaume/Desktop/CODE/LauzHack23/bot/examples/auth.log"
+# question = "Did the user jonny delete any program?"
 
-result = askGPT(fp, question)
+# result = askGPT(fp, question)
 
 def askAnotherQuestion(question):
     answers = []
