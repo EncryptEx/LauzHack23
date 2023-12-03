@@ -117,6 +117,6 @@ def askAnotherQuestion(question):
         if answer.startswith("SUCCESS"):
             return answer
         else: 
-            return "There is not enought information, try with another log"
+            return "There is not enough information, try with another question"
     
 

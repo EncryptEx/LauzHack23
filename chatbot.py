@@ -15,7 +15,7 @@ from telegram.ext import (
     filters,
 )
 
-from ai.gpt_core import askGPT
+from ai.gpt_core import askAnotherQuestion, askGPT, hardRestartConversation
 
 load_dotenv()
 TELEGRAM_KEY = os.getenv("TELEGRAM_KEY")
@@ -32,7 +32,7 @@ logging.getLogger("httpx").setLevel(logging.WARNING)
 logger = logging.getLogger(__name__)
 
 
-START, PROCESSED, AWAITING_USER, QUESTION, CLOSED = range(5)
+START, PROCESSED, AWAITING_USER, QUESTION, CLOSED, SECOND_QUESTION = range(6)
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
@@ -64,28 +64,45 @@ async def process_file(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     tmp_file = "tmp/attachment.txt"
     await attachment_file.download_to_drive(tmp_file)
 
-    ## LLAMAR A función de Jaumet i Paulet
-    # read txt
-    response = askGPT(tmp_file, "What is the latest log?")
+    await update.message.reply_text(rf"Write your question!")
+    
+    #await get_an_answer(update, context)
 
-    print("JAUMET")
-    print(response)
-    print("JAUMET ENDS")
-    await update.message.reply_text(rf"The answer: {response}")
+    return QUESTION #answer question
+    
+async def get_an_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):    
 
-    return AWAITING_USER #answer question
+    prompt_question = update.message.text
+
+    tmp_file = "tmp/attachment.txt"
+    response = askGPT(tmp_file, prompt_question)
+
+    
+    await update.message.reply_text(rf"The answer: {response}" + "\n\n Write your next question and press enter,")
+
+    return AWAITING_USER
+
+
+async def get_an_answer_two(update: Update, context: ContextTypes.DEFAULT_TYPE):    
+    
+    prompt_question = update.message.text
+    print(prompt_question)
+    response = askAnotherQuestion(prompt_question)
+
+    await update.message.reply_text(rf"The answer: {response}  " + "\n\n Write your next question and press enter, If you have no questions send /cancel")
+    return AWAITING_USER
 
 async def answer_question(update: Update, context: ContextTypes.DEFAULT_TYPE):
     #await update.message.reply_text("Write your question and press enter, \n if you have no questions send /cancel")
-    await update.message.reply_text(text="Write your question and press enter, \n if you have no questions send /cancel", reply_markup=ForceReply(selective=True))
+    #await update.message.reply_text(text=" \n If you have no questions send /cancel", reply_markup=ForceReply(selective=True))
+    prompt_question = update.message.text
+    print(prompt_question)
+    response = askAnotherQuestion(prompt_question)
+        
+    await update.message.reply_text(rf"The answer: {response}  " + "\n\n Write your next question and press enter, If you have no questions send /cancel")
 
-    return QUESTION
+    return SECOND_QUESTION
 
-async def questions(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    question = "debug"
-    await update.message.reply_text(f"HERE's your answer {question}")
-
-    return AWAITING_USER
 
 
 
@@ -93,6 +110,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     """Cancels and ends the conversation."""
     user = update.message.from_user
     logger.info("User %s canceled the conversation.", user.first_name)
+    hardRestartConversation()
     await update.message.reply_text(
         "Bye!", reply_markup=ReplyKeyboardRemove()
     )
@@ -116,7 +134,8 @@ def main() -> None:
                 MessageHandler(filters.ALL, answer_question),
                 CommandHandler("cancel", cancel)
             ],
-            QUESTION : [MessageHandler(filters.ALL, questions), CommandHandler("cancel", cancel)]
+            QUESTION : [MessageHandler(filters.ALL, get_an_answer), CommandHandler("cancel", cancel)],
+            SECOND_QUESTION : [MessageHandler(filters.ALL, get_an_answer_two), CommandHandler("cancel", cancel)]
         },
         fallbacks=[CommandHandler("cancel", cancel)],
     )

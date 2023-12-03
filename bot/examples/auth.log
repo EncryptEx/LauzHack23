@@ -1,0 +1,868 @@
+Nov 26 07:30:01 exampleuser CRON[127390]: pam_unix(cron:session): session closed for user root
+Nov 26 07:35:01 exampleuser CRON[128875]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 07:35:01 exampleuser CRON[128875]: pam_unix(cron:session): session closed for user root
+Nov 26 07:39:01 exampleuser CRON[129749]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 07:39:01 exampleuser CRON[129749]: pam_unix(cron:session): session closed for user root
+Nov 26 07:45:01 exampleuser CRON[130443]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 07:45:01 exampleuser CRON[130443]: pam_unix(cron:session): session closed for user root
+Nov 26 07:55:01 exampleuser CRON[130596]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 07:55:01 exampleuser CRON[130596]: pam_unix(cron:session): session closed for user root
+Nov 26 08:05:01 exampleuser CRON[130760]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 08:05:01 exampleuser CRON[130760]: pam_unix(cron:session): session closed for user root
+Nov 26 08:09:01 exampleuser CRON[130798]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 08:09:01 exampleuser CRON[130798]: pam_unix(cron:session): session closed for user root
+Nov 26 08:15:01 exampleuser CRON[130892]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 08:15:01 exampleuser CRON[130892]: pam_unix(cron:session): session closed for user root
+Nov 26 08:17:01 exampleuser CRON[130911]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 08:17:01 exampleuser CRON[130911]: pam_unix(cron:session): session closed for user root
+Nov 26 08:22:36 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 26 08:25:01 exampleuser CRON[131323]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 08:25:01 exampleuser CRON[131323]: pam_unix(cron:session): session closed for user root
+Nov 26 08:30:01 exampleuser CRON[131617]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 08:30:01 exampleuser CRON[131617]: pam_unix(cron:session): session closed for user root
+Nov 26 08:35:01 exampleuser CRON[131918]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 08:35:01 exampleuser CRON[131918]: pam_unix(cron:session): session closed for user root
+Nov 26 08:39:01 exampleuser CRON[132155]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 08:39:01 exampleuser CRON[132155]: pam_unix(cron:session): session closed for user root
+Nov 26 08:45:01 exampleuser CRON[132582]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 08:45:01 exampleuser CRON[132582]: pam_unix(cron:session): session closed for user root
+Nov 26 08:55:01 exampleuser CRON[133684]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 08:55:01 exampleuser CRON[133684]: pam_unix(cron:session): session closed for user root
+Nov 26 09:05:01 exampleuser CRON[134195]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 09:05:01 exampleuser CRON[134195]: pam_unix(cron:session): session closed for user root
+Nov 26 09:09:01 exampleuser CRON[134601]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 09:09:01 exampleuser CRON[134601]: pam_unix(cron:session): session closed for user root
+Nov 26 09:15:01 exampleuser CRON[136757]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 09:15:01 exampleuser CRON[136757]: pam_unix(cron:session): session closed for user root
+Nov 26 09:17:01 exampleuser CRON[136871]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 09:17:01 exampleuser CRON[136871]: pam_unix(cron:session): session closed for user root
+Nov 26 09:22:40 exampleuser pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 26 09:22:40 exampleuser pkexec[138050]: jonny: Executing command [USER=root] [TTY=unknown] [CWD=/home/jonny] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 26 09:25:01 exampleuser CRON[138208]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 09:25:01 exampleuser CRON[138208]: pam_unix(cron:session): session closed for user root
+Nov 26 09:30:02 exampleuser CRON[138969]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 09:30:02 exampleuser CRON[138969]: pam_unix(cron:session): session closed for user root
+Nov 26 09:35:01 exampleuser CRON[139102]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 09:35:01 exampleuser CRON[139102]: pam_unix(cron:session): session closed for user root
+Nov 26 09:39:01 exampleuser CRON[139486]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 09:39:01 exampleuser CRON[139486]: pam_unix(cron:session): session closed for user root
+Nov 26 09:45:01 exampleuser CRON[139847]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 09:45:01 exampleuser CRON[139847]: pam_unix(cron:session): session closed for user root
+Nov 26 09:55:01 exampleuser CRON[140124]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 09:55:01 exampleuser CRON[140124]: pam_unix(cron:session): session closed for user root
+Nov 26 10:05:01 exampleuser CRON[140670]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 10:05:01 exampleuser CRON[140670]: pam_unix(cron:session): session closed for user root
+Nov 26 10:09:01 exampleuser CRON[141044]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 10:09:01 exampleuser CRON[141044]: pam_unix(cron:session): session closed for user root
+Nov 26 10:15:01 exampleuser CRON[141439]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 10:15:01 exampleuser CRON[141439]: pam_unix(cron:session): session closed for user root
+Nov 26 10:17:01 exampleuser CRON[141597]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 10:17:01 exampleuser CRON[141597]: pam_unix(cron:session): session closed for user root
+Nov 26 10:25:01 exampleuser CRON[142106]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 10:25:01 exampleuser CRON[142106]: pam_unix(cron:session): session closed for user root
+Nov 26 10:30:01 exampleuser CRON[142352]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 10:30:01 exampleuser CRON[142352]: pam_unix(cron:session): session closed for user root
+Nov 26 10:35:01 exampleuser CRON[142777]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 10:35:01 exampleuser CRON[142777]: pam_unix(cron:session): session closed for user root
+Nov 26 10:39:01 exampleuser CRON[143295]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 10:39:01 exampleuser CRON[143295]: pam_unix(cron:session): session closed for user root
+Nov 26 10:45:01 exampleuser CRON[143780]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 10:45:01 exampleuser CRON[143780]: pam_unix(cron:session): session closed for user root
+Nov 26 10:55:01 exampleuser CRON[144730]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 10:55:01 exampleuser CRON[144730]: pam_unix(cron:session): session closed for user root
+Nov 26 11:01:35 exampleuser systemd-logind[1051]: Lid closed.
+Nov 26 11:01:36 exampleuser systemd-logind[1051]: Suspending...
+Nov 26 12:36:06 exampleuser systemd-logind[1051]: Lid opened.
+Nov 26 12:36:06 exampleuser systemd-logind[1051]: Operation 'sleep' finished.
+Nov 26 12:36:11 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 26 12:36:17 exampleuser CRON[145230]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 12:36:17 exampleuser CRON[145230]: pam_unix(cron:session): session closed for user root
+Nov 26 12:36:17 exampleuser CRON[145232]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 12:36:17 exampleuser CRON[145232]: pam_unix(cron:session): session closed for user root
+Nov 26 12:39:01 exampleuser CRON[145790]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 12:39:01 exampleuser CRON[145790]: pam_unix(cron:session): session closed for user root
+Nov 26 12:45:01 exampleuser CRON[146637]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 12:45:02 exampleuser CRON[146637]: pam_unix(cron:session): session closed for user root
+Nov 26 12:53:38 exampleuser systemd-logind[1051]: Lid closed.
+Nov 26 12:53:39 exampleuser systemd-logind[1051]: Suspending...
+Nov 26 13:03:48 exampleuser systemd-logind[1051]: Lid opened.
+Nov 26 13:03:48 exampleuser systemd-logind[1051]: Operation 'sleep' finished.
+Nov 26 13:03:51 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 26 13:04:45 exampleuser gnome-keyring-daemon[2419]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 26 13:05:01 exampleuser CRON[148814]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 13:05:01 exampleuser CRON[148814]: pam_unix(cron:session): session closed for user root
+Nov 26 13:09:01 exampleuser CRON[150060]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 13:09:01 exampleuser CRON[150060]: pam_unix(cron:session): session closed for user root
+Nov 26 13:15:01 exampleuser CRON[150991]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 13:15:01 exampleuser CRON[150991]: pam_unix(cron:session): session closed for user root
+Nov 26 13:17:01 exampleuser CRON[151279]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 13:17:01 exampleuser CRON[151279]: pam_unix(cron:session): session closed for user root
+Nov 26 13:25:01 exampleuser CRON[152672]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 13:25:01 exampleuser CRON[152672]: pam_unix(cron:session): session closed for user root
+Nov 26 13:28:13 exampleuser systemd-logind[1051]: Lid closed.
+Nov 26 13:28:13 exampleuser systemd-logind[1051]: Suspending...
+Nov 26 13:31:40 exampleuser systemd-logind[1051]: Lid opened.
+Nov 26 13:31:40 exampleuser systemd-logind[1051]: Operation 'sleep' finished.
+Nov 26 13:31:45 exampleuser gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=jonny
+Nov 26 13:31:53 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 26 13:32:17 exampleuser CRON[153391]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 13:32:17 exampleuser CRON[153391]: pam_unix(cron:session): session closed for user root
+Nov 26 13:33:04 exampleuser systemd-logind[1051]: Lid closed.
+Nov 26 13:33:04 exampleuser systemd-logind[1051]: Suspending...
+Nov 26 21:05:04 exampleuser systemd-logind[1051]: Lid opened.
+Nov 26 21:05:04 exampleuser systemd-logind[1051]: Operation 'sleep' finished.
+Nov 26 21:05:12 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 26 21:05:22 exampleuser systemd-logind[1051]: Watching system buttons on /dev/input/event5 (Razer Razer Basilisk V3 Keyboard)
+Nov 26 21:05:22 exampleuser systemd-logind[1051]: Watching system buttons on /dev/input/event7 (Razer Razer Basilisk V3)
+Nov 26 21:05:50 exampleuser CRON[153975]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 26 21:05:50 exampleuser CRON[153975]: pam_unix(cron:session): session closed for user root
+Nov 26 21:08:56 exampleuser systemd-logind[1051]: Lid closed.
+Nov 26 21:08:56 exampleuser systemd-logind[1051]: Suspending...
+Nov 27 08:08:21 exampleuser systemd-logind[1051]: Lid opened.
+Nov 27 08:08:21 exampleuser systemd-logind[1051]: Operation 'sleep' finished.
+Nov 27 08:08:29 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 27 08:09:02 exampleuser CRON[155277]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 08:09:02 exampleuser CRON[155277]: pam_unix(cron:session): session closed for user root
+Nov 27 08:11:11 exampleuser systemd-logind[1051]: Lid closed.
+Nov 27 08:11:11 exampleuser systemd-logind[1051]: Suspending...
+Nov 27 11:05:08 exampleuser systemd-logind[1051]: Lid opened.
+Nov 27 11:05:08 exampleuser systemd-logind[1051]: Operation 'sleep' finished.
+Nov 27 11:05:12 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 27 11:05:47 exampleuser CRON[156171]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 11:05:47 exampleuser CRON[156171]: pam_unix(cron:session): session closed for user root
+Nov 27 11:05:47 exampleuser CRON[156174]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 11:05:47 exampleuser CRON[156174]: pam_unix(cron:session): session closed for user root
+Nov 27 11:05:47 exampleuser CRON[156177]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 11:05:47 exampleuser CRON[156177]: pam_unix(cron:session): session closed for user root
+Nov 27 11:05:47 exampleuser CRON[156181]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 11:05:47 exampleuser CRON[156181]: pam_unix(cron:session): session closed for user root
+Nov 27 11:09:01 exampleuser CRON[156771]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 11:09:01 exampleuser CRON[156771]: pam_unix(cron:session): session closed for user root
+Nov 27 11:11:33 exampleuser gnome-keyring-daemon[2419]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 27 11:15:01 exampleuser CRON[157631]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 11:15:01 exampleuser CRON[157631]: pam_unix(cron:session): session closed for user root
+Nov 27 11:17:01 exampleuser CRON[157790]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 11:17:01 exampleuser CRON[157790]: pam_unix(cron:session): session closed for user root
+Nov 27 11:25:01 exampleuser CRON[157961]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 11:25:01 exampleuser CRON[157961]: pam_unix(cron:session): session closed for user root
+Nov 27 11:30:01 exampleuser CRON[158019]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 11:30:01 exampleuser CRON[158019]: pam_unix(cron:session): session closed for user root
+Nov 27 11:35:01 exampleuser CRON[158120]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 11:35:01 exampleuser CRON[158120]: pam_unix(cron:session): session closed for user root
+Nov 27 11:37:23 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 27 11:38:18 exampleuser gnome-keyring-daemon[2419]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 27 11:39:01 exampleuser CRON[159683]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 11:39:01 exampleuser CRON[159683]: pam_unix(cron:session): session closed for user root
+Nov 27 11:45:02 exampleuser CRON[161746]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 11:45:02 exampleuser CRON[161746]: pam_unix(cron:session): session closed for user root
+Nov 27 11:47:10 exampleuser systemd-logind[1051]: Lid closed.
+Nov 27 11:47:10 exampleuser systemd-logind[1051]: Suspending...
+Nov 27 11:49:53 exampleuser systemd-logind[1051]: Operation 'sleep' finished.
+Nov 27 11:50:16 exampleuser systemd-logind[1051]: Suspending...
+Nov 27 19:29:13 exampleuser systemd-logind[1051]: Lid opened.
+Nov 27 19:29:13 exampleuser systemd-logind[1051]: Operation 'sleep' finished.
+Nov 27 19:29:15 exampleuser gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=jonny
+Nov 27 19:29:20 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 27 19:30:01 exampleuser CRON[162827]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 19:30:01 exampleuser CRON[162827]: pam_unix(cron:session): session closed for user root
+Nov 27 19:32:53 exampleuser systemd-logind[1051]: Lid closed.
+Nov 27 19:32:53 exampleuser systemd-logind[1051]: Suspending...
+Nov 27 19:59:52 exampleuser systemd-logind[1051]: Lid opened.
+Nov 27 19:59:52 exampleuser systemd-logind[1051]: Operation 'sleep' finished.
+                                                                  
+Nov 27 20:01:03 exampleuser systemd-logind[1037]: New seat seat0.
+Nov 27 20:01:03 exampleuser systemd-logind[1037]: Watching system buttons on /dev/input/event2 (Power Button)
+Nov 27 20:01:03 exampleuser systemd-logind[1037]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Nov 27 20:01:03 exampleuser systemd-logind[1037]: Watching system buttons on /dev/input/event0 (Sleep Button)
+Nov 27 20:01:03 exampleuser systemd-logind[1037]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Nov 27 20:01:03 exampleuser systemd-logind[1037]: Watching system buttons on /dev/input/event9 (exampleuser Extra Buttons)
+Nov 27 20:01:03 exampleuser gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+Nov 27 20:01:03 exampleuser systemd-logind[1037]: New session c1 of user gdm.
+Nov 27 20:01:03 exampleuser systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+Nov 27 20:01:06 exampleuser polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.47 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 27 20:01:09 exampleuser systemd-logind[1037]: Power key pressed.
+Nov 27 22:50:49 exampleuser systemd-logind[1038]: New seat seat0.
+Nov 27 22:50:49 exampleuser systemd-logind[1038]: Watching system buttons on /dev/input/event2 (Power Button)
+Nov 27 22:50:49 exampleuser systemd-logind[1038]: Watching system buttons on /dev/input/event1 (Lid Switch)
+Nov 27 22:50:49 exampleuser systemd-logind[1038]: Watching system buttons on /dev/input/event0 (Sleep Button)
+Nov 27 22:50:49 exampleuser systemd-logind[1038]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+Nov 27 22:50:49 exampleuser systemd-logind[1038]: Watching system buttons on /dev/input/event9 (exampleuser Extra Buttons)
+Nov 27 22:50:49 exampleuser gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+Nov 27 22:50:49 exampleuser systemd-logind[1038]: New session c1 of user gdm.
+Nov 27 22:50:49 exampleuser systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+Nov 27 22:50:52 exampleuser polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.47 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 27 22:51:00 exampleuser gdm-password]: gkr-pam: unable to locate daemon control file
+Nov 27 22:51:00 exampleuser gdm-password]: gkr-pam: stashed password to try later in open session
+Nov 27 22:51:00 exampleuser gdm-password]: pam_unix(gdm-password:session): session opened for user jonny(uid=1000) by (uid=0)
+Nov 27 22:51:00 exampleuser systemd-logind[1038]: New session 2 of user jonny.
+Nov 27 22:51:00 exampleuser systemd: pam_unix(systemd-user:session): session opened for user jonny(uid=1000) by (uid=0)
+Nov 27 22:51:01 exampleuser gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Nov 27 22:51:02 exampleuser gnome-keyring-daemon[2431]: The Secret Service was already initialized
+Nov 27 22:51:02 exampleuser gnome-keyring-daemon[2431]: The SSH agent was already initialized
+Nov 27 22:51:02 exampleuser gnome-keyring-daemon[2431]: The PKCS#11 component was already initialized
+Nov 27 22:51:03 exampleuser polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.90 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Nov 27 22:51:06 exampleuser polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.47, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Nov 27 22:51:06 exampleuser gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Nov 27 22:51:06 exampleuser systemd-logind[1038]: Session c1 logged out. Waiting for processes to exit.
+Nov 27 22:51:06 exampleuser systemd-logind[1038]: Removed session c1.
+Nov 27 22:51:09 exampleuser PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 27 22:51:09 exampleuser PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 27 22:51:17 exampleuser PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 27 22:51:17 exampleuser PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 27 22:51:18 exampleuser PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 27 22:51:18 exampleuser PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 27 22:51:33 exampleuser polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:jonny to gain TEMPORARY authorization for action io.snapcraft.snapd.manage for unix-process:3085:2267 [/snap/snap-store/959/usr/bin/snap-store --gapplication-service] (owned by unix-user:jonny)
+Nov 27 22:52:10 exampleuser pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 27 22:52:10 exampleuser pkexec[5259]: jonny: Executing command [USER=root] [TTY=unknown] [CWD=/home/jonny] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 27 22:52:56 exampleuser sudo:    jonny : TTY=pts/0 ; PWD=/home/jonny ; USER=root ; COMMAND=/usr/bin/apt purge google-chrome-stable
+Nov 27 22:52:56 exampleuser sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 27 22:53:04 exampleuser sudo: pam_unix(sudo:session): session closed for user root
+Nov 27 22:53:54 exampleuser polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:jonny to gain TEMPORARY authorization for action org.debian.apt.install-or-remove-packages for system-bus-name::1.122 [/usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map] (owned by unix-user:jonny)
+Nov 27 22:55:01 exampleuser CRON[7700]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 22:55:01 exampleuser CRON[7700]: pam_unix(cron:session): session closed for user root
+Nov 27 22:55:09 exampleuser pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 27 22:55:09 exampleuser pkexec[7785]: jonny: Executing command [USER=root] [TTY=unknown] [CWD=/home/jonny] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 27 23:05:01 exampleuser CRON[32571]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 23:05:01 exampleuser CRON[32571]: pam_unix(cron:session): session closed for user root
+Nov 27 23:09:01 exampleuser CRON[33261]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 23:09:01 exampleuser CRON[33261]: pam_unix(cron:session): session closed for user root
+Nov 27 23:15:01 exampleuser CRON[33941]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 23:15:01 exampleuser CRON[33941]: pam_unix(cron:session): session closed for user root
+Nov 27 23:17:01 exampleuser CRON[34100]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 23:17:01 exampleuser CRON[34100]: pam_unix(cron:session): session closed for user root
+Nov 27 23:25:01 exampleuser CRON[35758]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 23:25:01 exampleuser CRON[35758]: pam_unix(cron:session): session closed for user root
+Nov 27 23:30:01 exampleuser CRON[38084]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 23:30:01 exampleuser CRON[38084]: pam_unix(cron:session): session closed for user root
+Nov 27 23:35:01 exampleuser CRON[38529]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 27 23:35:01 exampleuser CRON[38529]: pam_unix(cron:session): session closed for user root
+Nov 27 23:38:35 exampleuser systemd-logind[1038]: Lid closed.
+Nov 27 23:38:35 exampleuser systemd-logind[1038]: Suspending...
+Nov 28 07:58:10 exampleuser systemd-logind[1038]: Lid opened.
+Nov 28 07:58:10 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Nov 28 07:58:19 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 28 07:58:21 exampleuser PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 28 07:58:21 exampleuser PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 28 07:58:27 exampleuser PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Nov 28 07:58:27 exampleuser PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Nov 28 08:05:01 exampleuser CRON[41163]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 08:05:01 exampleuser CRON[41163]: pam_unix(cron:session): session closed for user root
+Nov 28 08:08:24 exampleuser gnome-keyring-daemon[2431]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 28 08:09:01 exampleuser CRON[42295]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 08:09:01 exampleuser CRON[42295]: pam_unix(cron:session): session closed for user root
+Nov 28 08:15:01 exampleuser CRON[43459]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 08:15:01 exampleuser CRON[43459]: pam_unix(cron:session): session closed for user root
+Nov 28 08:17:01 exampleuser CRON[43580]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 08:17:01 exampleuser CRON[43580]: pam_unix(cron:session): session closed for user root
+Nov 28 08:25:01 exampleuser CRON[44774]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 08:25:01 exampleuser CRON[44774]: pam_unix(cron:session): session closed for user root
+Nov 28 08:30:01 exampleuser CRON[45141]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 08:30:02 exampleuser CRON[45141]: pam_unix(cron:session): session closed for user root
+Nov 28 08:35:01 exampleuser CRON[45624]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 08:35:01 exampleuser CRON[45624]: pam_unix(cron:session): session closed for user root
+Nov 28 08:39:01 exampleuser CRON[45790]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 08:39:01 exampleuser CRON[45790]: pam_unix(cron:session): session closed for user root
+Nov 28 08:45:01 exampleuser CRON[46047]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 08:45:01 exampleuser CRON[46047]: pam_unix(cron:session): session closed for user root
+Nov 28 08:55:01 exampleuser CRON[46560]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 08:55:01 exampleuser CRON[46560]: pam_unix(cron:session): session closed for user root
+Nov 28 09:05:01 exampleuser CRON[47210]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 09:05:01 exampleuser CRON[47210]: pam_unix(cron:session): session closed for user root
+Nov 28 09:09:01 exampleuser CRON[47483]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 09:09:01 exampleuser CRON[47483]: pam_unix(cron:session): session closed for user root
+Nov 28 09:15:01 exampleuser CRON[47666]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 09:15:01 exampleuser CRON[47666]: pam_unix(cron:session): session closed for user root
+Nov 28 09:17:01 exampleuser CRON[47800]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 09:17:01 exampleuser CRON[47800]: pam_unix(cron:session): session closed for user root
+Nov 28 09:25:01 exampleuser CRON[48367]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 09:25:01 exampleuser CRON[48367]: pam_unix(cron:session): session closed for user root
+Nov 28 09:30:01 exampleuser CRON[48564]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 09:30:01 exampleuser CRON[48564]: pam_unix(cron:session): session closed for user root
+Nov 28 09:35:01 exampleuser CRON[48835]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 09:35:01 exampleuser CRON[48835]: pam_unix(cron:session): session closed for user root
+Nov 28 09:39:01 exampleuser CRON[49147]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 09:39:01 exampleuser CRON[49147]: pam_unix(cron:session): session closed for user root
+Nov 28 09:45:01 exampleuser CRON[49572]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 09:45:01 exampleuser CRON[49572]: pam_unix(cron:session): session closed for user root
+Nov 28 09:55:01 exampleuser CRON[50816]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 09:55:01 exampleuser CRON[50816]: pam_unix(cron:session): session closed for user root
+Nov 28 10:05:01 exampleuser CRON[51838]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 10:05:01 exampleuser CRON[51838]: pam_unix(cron:session): session closed for user root
+Nov 28 10:08:06 exampleuser systemd-logind[1038]: Lid closed.
+Nov 28 10:08:06 exampleuser systemd-logind[1038]: Suspending...
+Nov 28 11:09:08 exampleuser systemd-logind[1038]: Lid opened.
+Nov 28 11:09:08 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Nov 28 11:09:52 exampleuser CRON[52556]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 11:09:52 exampleuser CRON[52556]: pam_unix(cron:session): session closed for user root
+Nov 28 11:09:52 exampleuser CRON[52558]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 11:09:52 exampleuser CRON[52558]: pam_unix(cron:session): session closed for user root
+Nov 28 11:10:37 exampleuser gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=jonny
+Nov 28 11:10:45 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 28 11:15:01 exampleuser CRON[52788]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 11:15:01 exampleuser CRON[52788]: pam_unix(cron:session): session closed for user root
+Nov 28 11:17:01 exampleuser CRON[52808]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 11:17:01 exampleuser CRON[52808]: pam_unix(cron:session): session closed for user root
+Nov 28 11:25:01 exampleuser CRON[53131]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 11:25:01 exampleuser CRON[53131]: pam_unix(cron:session): session closed for user root
+Nov 28 11:30:01 exampleuser CRON[53168]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 11:30:01 exampleuser CRON[53168]: pam_unix(cron:session): session closed for user root
+Nov 28 11:35:01 exampleuser CRON[53204]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 11:35:01 exampleuser CRON[53204]: pam_unix(cron:session): session closed for user root
+Nov 28 11:39:01 exampleuser CRON[53263]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 11:39:01 exampleuser CRON[53263]: pam_unix(cron:session): session closed for user root
+Nov 28 11:45:01 exampleuser CRON[53340]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 11:45:01 exampleuser CRON[53340]: pam_unix(cron:session): session closed for user root
+Nov 28 11:54:30 exampleuser systemd-logind[1038]: Lid closed.
+Nov 28 11:54:30 exampleuser systemd-logind[1038]: Suspending...
+Nov 28 17:48:59 exampleuser systemd-logind[1038]: Lid opened.
+Nov 28 17:48:59 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Nov 28 17:49:04 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 28 17:55:02 exampleuser CRON[53861]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 17:55:02 exampleuser CRON[53861]: pam_unix(cron:session): session closed for user root
+Nov 28 18:00:48 exampleuser systemd-logind[1038]: Watching system buttons on /dev/input/event22 (Razer Razer Basilisk V3 Keyboard)
+Nov 28 18:00:48 exampleuser systemd-logind[1038]: Watching system buttons on /dev/input/event24 (Razer Razer Basilisk V3)
+Nov 28 18:00:49 exampleuser systemd-logind[1038]: Watching system buttons on /dev/input/event15 (Logitech Wireless Keyboard PID:4023)
+Nov 28 18:01:01 exampleuser systemd-logind[1038]: Watching system buttons on /dev/input/event18 (Logitech G502 HERO Gaming Mouse Keyboard)
+Nov 28 18:05:01 exampleuser CRON[54535]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 18:05:01 exampleuser CRON[54535]: pam_unix(cron:session): session closed for user root
+Nov 28 18:09:01 exampleuser CRON[55237]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 18:09:01 exampleuser CRON[55237]: pam_unix(cron:session): session closed for user root
+Nov 28 18:15:01 exampleuser CRON[56499]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 18:15:01 exampleuser CRON[56499]: pam_unix(cron:session): session closed for user root
+Nov 28 18:17:01 exampleuser CRON[56722]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 18:17:01 exampleuser CRON[56722]: pam_unix(cron:session): session closed for user root
+Nov 28 18:25:01 exampleuser CRON[57276]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 18:25:01 exampleuser CRON[57276]: pam_unix(cron:session): session closed for user root
+Nov 28 18:30:01 exampleuser CRON[57311]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 18:30:01 exampleuser CRON[57311]: pam_unix(cron:session): session closed for user root
+Nov 28 18:35:01 exampleuser CRON[57381]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 18:35:01 exampleuser CRON[57381]: pam_unix(cron:session): session closed for user root
+Nov 28 18:39:01 exampleuser CRON[57458]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 18:39:01 exampleuser CRON[57458]: pam_unix(cron:session): session closed for user root
+Nov 28 18:45:01 exampleuser CRON[57555]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 18:45:01 exampleuser CRON[57555]: pam_unix(cron:session): session closed for user root
+Nov 28 18:55:01 exampleuser CRON[57589]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 18:55:01 exampleuser CRON[57589]: pam_unix(cron:session): session closed for user root
+Nov 28 19:00:48 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 28 19:05:01 exampleuser CRON[60443]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 19:05:01 exampleuser CRON[60443]: pam_unix(cron:session): session closed for user root
+Nov 28 19:09:01 exampleuser CRON[60967]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 19:09:01 exampleuser CRON[60967]: pam_unix(cron:session): session closed for user root
+Nov 28 19:15:01 exampleuser CRON[61824]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 19:15:01 exampleuser CRON[61824]: pam_unix(cron:session): session closed for user root
+Nov 28 19:17:01 exampleuser CRON[62171]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 19:17:01 exampleuser CRON[62171]: pam_unix(cron:session): session closed for user root
+Nov 28 19:25:01 exampleuser CRON[63634]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 19:25:01 exampleuser CRON[63634]: pam_unix(cron:session): session closed for user root
+Nov 28 19:30:01 exampleuser CRON[64583]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 19:30:01 exampleuser CRON[64583]: pam_unix(cron:session): session closed for user root
+Nov 28 19:35:01 exampleuser CRON[65419]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 19:35:01 exampleuser CRON[65419]: pam_unix(cron:session): session closed for user root
+Nov 28 19:39:01 exampleuser CRON[66399]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 19:39:01 exampleuser CRON[66399]: pam_unix(cron:session): session closed for user root
+Nov 28 19:45:01 exampleuser CRON[67204]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 19:45:01 exampleuser CRON[67204]: pam_unix(cron:session): session closed for user root
+Nov 28 19:55:01 exampleuser CRON[68707]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 19:55:01 exampleuser CRON[68707]: pam_unix(cron:session): session closed for user root
+Nov 28 20:05:01 exampleuser CRON[70724]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 20:05:01 exampleuser CRON[70724]: pam_unix(cron:session): session closed for user root
+Nov 28 20:09:01 exampleuser CRON[71288]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 20:09:01 exampleuser CRON[71288]: pam_unix(cron:session): session closed for user root
+Nov 28 20:15:01 exampleuser CRON[71896]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 20:15:01 exampleuser CRON[71896]: pam_unix(cron:session): session closed for user root
+Nov 28 20:17:01 exampleuser CRON[72229]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 20:17:01 exampleuser CRON[72229]: pam_unix(cron:session): session closed for user root
+Nov 28 20:25:01 exampleuser CRON[73087]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 20:25:01 exampleuser CRON[73087]: pam_unix(cron:session): session closed for user root
+Nov 28 20:30:01 exampleuser CRON[73121]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 20:30:01 exampleuser CRON[73121]: pam_unix(cron:session): session closed for user root
+Nov 28 20:35:01 exampleuser CRON[73149]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 20:35:01 exampleuser CRON[73149]: pam_unix(cron:session): session closed for user root
+Nov 28 20:39:01 exampleuser CRON[73228]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 20:39:01 exampleuser CRON[73228]: pam_unix(cron:session): session closed for user root
+Nov 28 20:45:01 exampleuser CRON[73288]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 20:45:02 exampleuser CRON[73288]: pam_unix(cron:session): session closed for user root
+Nov 28 20:55:01 exampleuser CRON[73344]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 20:55:02 exampleuser CRON[73344]: pam_unix(cron:session): session closed for user root
+Nov 28 21:05:01 exampleuser CRON[73400]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 21:05:02 exampleuser CRON[73400]: pam_unix(cron:session): session closed for user root
+Nov 28 21:09:01 exampleuser CRON[73433]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 21:09:01 exampleuser CRON[73433]: pam_unix(cron:session): session closed for user root
+Nov 28 21:15:02 exampleuser CRON[73498]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 21:15:02 exampleuser CRON[73498]: pam_unix(cron:session): session closed for user root
+Nov 28 21:17:01 exampleuser CRON[73508]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 21:17:01 exampleuser CRON[73508]: pam_unix(cron:session): session closed for user root
+Nov 28 21:25:01 exampleuser CRON[73555]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 21:25:01 exampleuser CRON[73555]: pam_unix(cron:session): session closed for user root
+Nov 28 21:30:01 exampleuser CRON[73586]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 21:30:01 exampleuser CRON[73586]: pam_unix(cron:session): session closed for user root
+Nov 28 21:35:01 exampleuser CRON[73615]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 21:35:01 exampleuser CRON[73615]: pam_unix(cron:session): session closed for user root
+Nov 28 21:39:01 exampleuser CRON[73642]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 21:39:01 exampleuser CRON[73642]: pam_unix(cron:session): session closed for user root
+Nov 28 21:45:01 exampleuser CRON[73711]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 21:45:01 exampleuser CRON[73711]: pam_unix(cron:session): session closed for user root
+Nov 28 21:55:01 exampleuser CRON[73767]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 21:55:01 exampleuser CRON[73767]: pam_unix(cron:session): session closed for user root
+Nov 28 22:05:01 exampleuser CRON[73827]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 22:05:01 exampleuser CRON[73827]: pam_unix(cron:session): session closed for user root
+Nov 28 22:09:01 exampleuser CRON[73858]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 22:09:01 exampleuser CRON[73858]: pam_unix(cron:session): session closed for user root
+Nov 28 22:15:01 exampleuser CRON[73921]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 22:15:01 exampleuser CRON[73921]: pam_unix(cron:session): session closed for user root
+Nov 28 22:17:01 exampleuser CRON[73937]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 22:17:01 exampleuser CRON[73937]: pam_unix(cron:session): session closed for user root
+Nov 28 22:25:01 exampleuser CRON[73984]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 22:25:01 exampleuser CRON[73984]: pam_unix(cron:session): session closed for user root
+Nov 28 22:30:01 exampleuser CRON[74011]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 22:30:01 exampleuser CRON[74011]: pam_unix(cron:session): session closed for user root
+Nov 28 22:35:01 exampleuser CRON[74040]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 22:35:01 exampleuser CRON[74040]: pam_unix(cron:session): session closed for user root
+Nov 28 22:39:01 exampleuser CRON[74072]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 22:39:01 exampleuser CRON[74072]: pam_unix(cron:session): session closed for user root
+Nov 28 22:45:01 exampleuser CRON[74132]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 22:45:01 exampleuser CRON[74132]: pam_unix(cron:session): session closed for user root
+Nov 28 22:55:01 exampleuser CRON[74187]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 22:55:01 exampleuser CRON[74187]: pam_unix(cron:session): session closed for user root
+Nov 28 23:05:01 exampleuser CRON[74238]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 23:05:01 exampleuser CRON[74238]: pam_unix(cron:session): session closed for user root
+Nov 28 23:09:01 exampleuser CRON[74280]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 23:09:01 exampleuser CRON[74280]: pam_unix(cron:session): session closed for user root
+Nov 28 23:15:01 exampleuser CRON[74390]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 23:15:01 exampleuser CRON[74390]: pam_unix(cron:session): session closed for user root
+Nov 28 23:16:34 exampleuser gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=jonny
+Nov 28 23:16:40 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 28 23:17:01 exampleuser CRON[74700]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 23:17:01 exampleuser CRON[74700]: pam_unix(cron:session): session closed for user root
+Nov 28 23:25:01 exampleuser CRON[74776]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 23:25:01 exampleuser CRON[74776]: pam_unix(cron:session): session closed for user root
+Nov 28 23:30:01 exampleuser CRON[74807]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 28 23:30:01 exampleuser CRON[74807]: pam_unix(cron:session): session closed for user root
+Nov 28 23:34:00 exampleuser systemd-logind[1038]: Lid closed.
+Nov 28 23:34:00 exampleuser systemd-logind[1038]: Suspending...
+Nov 29 10:30:43 exampleuser systemd-logind[1038]: Lid opened.
+Nov 29 10:30:43 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Nov 29 10:30:48 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 29 10:35:01 exampleuser CRON[76813]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 10:35:01 exampleuser CRON[76813]: pam_unix(cron:session): session closed for user root
+Nov 29 10:39:01 exampleuser CRON[76868]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 10:39:01 exampleuser CRON[76868]: pam_unix(cron:session): session closed for user root
+Nov 29 10:45:01 exampleuser CRON[76904]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 10:45:01 exampleuser CRON[76904]: pam_unix(cron:session): session closed for user root
+Nov 29 10:55:01 exampleuser CRON[76969]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 10:55:01 exampleuser CRON[76969]: pam_unix(cron:session): session closed for user root
+Nov 29 11:05:01 exampleuser CRON[77920]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 11:05:01 exampleuser CRON[77920]: pam_unix(cron:session): session closed for user root
+Nov 29 11:09:01 exampleuser CRON[78470]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 11:09:01 exampleuser CRON[78470]: pam_unix(cron:session): session closed for user root
+Nov 29 11:15:01 exampleuser CRON[78896]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 11:15:01 exampleuser CRON[78896]: pam_unix(cron:session): session closed for user root
+Nov 29 11:17:01 exampleuser CRON[79042]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 11:17:01 exampleuser CRON[79042]: pam_unix(cron:session): session closed for user root
+Nov 29 11:25:01 exampleuser CRON[79934]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 11:25:01 exampleuser CRON[79934]: pam_unix(cron:session): session closed for user root
+Nov 29 11:30:01 exampleuser CRON[80017]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 11:30:01 exampleuser CRON[80017]: pam_unix(cron:session): session closed for user root
+Nov 29 11:35:01 exampleuser CRON[80079]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 11:35:01 exampleuser CRON[80079]: pam_unix(cron:session): session closed for user root
+Nov 29 11:39:01 exampleuser CRON[80200]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 11:39:01 exampleuser CRON[80200]: pam_unix(cron:session): session closed for user root
+Nov 29 12:11:52 exampleuser systemd-logind[1038]: Lid closed.
+Nov 29 12:11:52 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Nov 29 12:12:15 exampleuser systemd-logind[1038]: Suspending...
+Nov 29 14:32:09 exampleuser systemd-logind[1038]: Lid opened.
+Nov 29 14:32:09 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Nov 29 14:32:24 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 29 14:32:48 exampleuser CRON[81320]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 14:32:48 exampleuser CRON[81320]: pam_unix(cron:session): session closed for user root
+Nov 29 14:32:48 exampleuser CRON[81322]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 14:32:48 exampleuser CRON[81322]: pam_unix(cron:session): session closed for user root
+Nov 29 14:32:48 exampleuser CRON[81324]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 14:32:48 exampleuser CRON[81324]: pam_unix(cron:session): session closed for user root
+Nov 29 14:35:01 exampleuser CRON[81713]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 14:35:01 exampleuser CRON[81713]: pam_unix(cron:session): session closed for user root
+Nov 29 14:39:01 exampleuser CRON[81804]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 14:39:01 exampleuser CRON[81804]: pam_unix(cron:session): session closed for user root
+Nov 29 14:45:01 exampleuser CRON[81939]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 14:45:01 exampleuser CRON[81939]: pam_unix(cron:session): session closed for user root
+Nov 29 14:55:01 exampleuser CRON[82061]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 14:55:01 exampleuser CRON[82061]: pam_unix(cron:session): session closed for user root
+Nov 29 14:59:54 exampleuser gnome-keyring-daemon[2431]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Nov 29 15:05:01 exampleuser CRON[82980]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 15:05:01 exampleuser CRON[82980]: pam_unix(cron:session): session closed for user root
+Nov 29 15:09:01 exampleuser CRON[84120]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 15:09:01 exampleuser CRON[84120]: pam_unix(cron:session): session closed for user root
+Nov 29 15:15:01 exampleuser CRON[84924]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 15:15:01 exampleuser CRON[84924]: pam_unix(cron:session): session closed for user root
+Nov 29 15:17:01 exampleuser CRON[85049]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 15:17:01 exampleuser CRON[85049]: pam_unix(cron:session): session closed for user root
+Nov 29 15:25:01 exampleuser CRON[85593]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 15:25:01 exampleuser CRON[85593]: pam_unix(cron:session): session closed for user root
+Nov 29 15:30:01 exampleuser CRON[85926]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 15:30:01 exampleuser CRON[85926]: pam_unix(cron:session): session closed for user root
+Nov 29 15:35:01 exampleuser CRON[86215]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 15:35:01 exampleuser CRON[86215]: pam_unix(cron:session): session closed for user root
+Nov 29 15:39:01 exampleuser CRON[86418]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 15:39:01 exampleuser CRON[86418]: pam_unix(cron:session): session closed for user root
+Nov 29 15:45:01 exampleuser CRON[86838]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 15:45:02 exampleuser CRON[86838]: pam_unix(cron:session): session closed for user root
+Nov 29 15:55:01 exampleuser CRON[88948]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 15:55:01 exampleuser CRON[88948]: pam_unix(cron:session): session closed for user root
+Nov 29 16:05:01 exampleuser CRON[89904]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 16:05:01 exampleuser CRON[89904]: pam_unix(cron:session): session closed for user root
+Nov 29 16:09:01 exampleuser CRON[90535]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 16:09:01 exampleuser CRON[90535]: pam_unix(cron:session): session closed for user root
+Nov 29 16:15:01 exampleuser CRON[91543]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 16:15:01 exampleuser CRON[91543]: pam_unix(cron:session): session closed for user root
+Nov 29 16:17:01 exampleuser CRON[91645]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 16:17:01 exampleuser CRON[91645]: pam_unix(cron:session): session closed for user root
+Nov 29 16:25:01 exampleuser CRON[92452]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 16:25:01 exampleuser CRON[92452]: pam_unix(cron:session): session closed for user root
+Nov 29 16:30:01 exampleuser CRON[92849]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 16:30:01 exampleuser CRON[92849]: pam_unix(cron:session): session closed for user root
+Nov 29 16:34:22 exampleuser systemd-logind[1038]: Lid closed.
+Nov 29 16:34:22 exampleuser systemd-logind[1038]: Suspending...
+Nov 29 20:03:12 exampleuser systemd-logind[1038]: Lid opened.
+Nov 29 20:03:12 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Nov 29 20:03:19 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 29 20:05:01 exampleuser CRON[94219]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 29 20:05:01 exampleuser CRON[94219]: pam_unix(cron:session): session closed for user root
+Nov 29 20:06:04 exampleuser systemd-logind[1038]: Lid closed.
+Nov 29 20:06:04 exampleuser systemd-logind[1038]: Suspending...
+Nov 30 09:35:21 exampleuser systemd-logind[1038]: Lid opened.
+Nov 30 09:35:21 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Nov 30 09:35:25 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 30 09:39:01 exampleuser CRON[99028]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 09:39:01 exampleuser CRON[99028]: pam_unix(cron:session): session closed for user root
+Nov 30 09:45:01 exampleuser CRON[99624]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 09:45:01 exampleuser CRON[99624]: pam_unix(cron:session): session closed for user root
+Nov 30 09:55:01 exampleuser CRON[100049]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 09:55:01 exampleuser CRON[100049]: pam_unix(cron:session): session closed for user root
+Nov 30 10:00:55 exampleuser systemd-logind[1038]: Lid closed.
+Nov 30 10:00:55 exampleuser systemd-logind[1038]: Suspending...
+Nov 30 10:01:56 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Nov 30 10:02:19 exampleuser systemd-logind[1038]: Suspending...
+Nov 30 11:28:25 exampleuser systemd-logind[1038]: Lid opened.
+Nov 30 11:28:25 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Nov 30 11:28:35 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 30 11:29:00 exampleuser CRON[101242]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 11:29:00 exampleuser CRON[101242]: pam_unix(cron:session): session closed for user root
+Nov 30 11:29:13 exampleuser systemd-logind[1038]: Lid closed.
+Nov 30 11:29:13 exampleuser systemd-logind[1038]: Suspending...
+Nov 30 11:57:58 exampleuser systemd-logind[1038]: Lid opened.
+Nov 30 11:57:58 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Nov 30 11:58:03 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 30 11:58:36 exampleuser CRON[101727]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 11:58:36 exampleuser CRON[101727]: pam_unix(cron:session): session closed for user root
+Nov 30 12:05:01 exampleuser CRON[102066]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 12:05:01 exampleuser CRON[102066]: pam_unix(cron:session): session closed for user root
+Nov 30 12:09:01 exampleuser CRON[102170]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 12:09:01 exampleuser CRON[102170]: pam_unix(cron:session): session closed for user root
+Nov 30 12:15:01 exampleuser CRON[102652]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 12:15:01 exampleuser CRON[102652]: pam_unix(cron:session): session closed for user root
+Nov 30 12:17:01 exampleuser CRON[102730]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 12:17:01 exampleuser CRON[102730]: pam_unix(cron:session): session closed for user root
+Nov 30 12:25:01 exampleuser CRON[103014]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 12:25:01 exampleuser CRON[103014]: pam_unix(cron:session): session closed for user root
+Nov 30 12:30:02 exampleuser CRON[103258]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 12:30:02 exampleuser CRON[103258]: pam_unix(cron:session): session closed for user root
+Nov 30 12:35:01 exampleuser CRON[103406]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 12:35:01 exampleuser CRON[103406]: pam_unix(cron:session): session closed for user root
+Nov 30 12:39:01 exampleuser CRON[103649]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 12:39:01 exampleuser CRON[103649]: pam_unix(cron:session): session closed for user root
+Nov 30 12:45:01 exampleuser CRON[103852]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 12:45:01 exampleuser CRON[103852]: pam_unix(cron:session): session closed for user root
+Nov 30 12:55:01 exampleuser CRON[104181]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 12:55:01 exampleuser CRON[104181]: pam_unix(cron:session): session closed for user root
+Nov 30 13:05:01 exampleuser CRON[104558]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 13:05:01 exampleuser CRON[104558]: pam_unix(cron:session): session closed for user root
+Nov 30 13:09:01 exampleuser CRON[104686]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 13:09:01 exampleuser CRON[104686]: pam_unix(cron:session): session closed for user root
+Nov 30 13:13:03 exampleuser gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=jonny
+Nov 30 13:13:09 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 30 13:15:01 exampleuser CRON[105008]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 13:15:01 exampleuser CRON[105008]: pam_unix(cron:session): session closed for user root
+Nov 30 13:17:01 exampleuser CRON[105057]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 13:17:01 exampleuser CRON[105057]: pam_unix(cron:session): session closed for user root
+Nov 30 13:25:01 exampleuser CRON[105510]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 13:25:01 exampleuser CRON[105510]: pam_unix(cron:session): session closed for user root
+Nov 30 13:30:01 exampleuser CRON[105732]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 13:30:01 exampleuser CRON[105732]: pam_unix(cron:session): session closed for user root
+Nov 30 13:30:49 exampleuser systemd-logind[1038]: Lid closed.
+Nov 30 13:30:49 exampleuser systemd-logind[1038]: Suspending...
+Nov 30 14:25:28 exampleuser systemd-logind[1038]: Lid opened.
+Nov 30 14:25:28 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Nov 30 14:25:29 exampleuser CRON[106042]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 14:25:29 exampleuser CRON[106042]: pam_unix(cron:session): session closed for user root
+Nov 30 14:25:34 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Nov 30 14:30:01 exampleuser CRON[106507]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 14:30:01 exampleuser CRON[106507]: pam_unix(cron:session): session closed for user root
+Nov 30 14:35:01 exampleuser CRON[106934]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 14:35:01 exampleuser CRON[106934]: pam_unix(cron:session): session closed for user root
+Nov 30 14:39:01 exampleuser CRON[107091]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 14:39:01 exampleuser CRON[107091]: pam_unix(cron:session): session closed for user root
+Nov 30 14:45:01 exampleuser CRON[107907]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 14:45:01 exampleuser CRON[107907]: pam_unix(cron:session): session closed for user root
+Nov 30 14:55:01 exampleuser CRON[108606]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 14:55:01 exampleuser CRON[108606]: pam_unix(cron:session): session closed for user root
+Nov 30 15:05:01 exampleuser CRON[109101]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 15:05:01 exampleuser CRON[109101]: pam_unix(cron:session): session closed for user root
+Nov 30 15:09:01 exampleuser CRON[109243]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 15:09:01 exampleuser CRON[109243]: pam_unix(cron:session): session closed for user root
+Nov 30 15:15:01 exampleuser CRON[109972]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 15:15:01 exampleuser CRON[109972]: pam_unix(cron:session): session closed for user root
+Nov 30 15:17:01 exampleuser CRON[110143]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 15:17:01 exampleuser CRON[110143]: pam_unix(cron:session): session closed for user root
+Nov 30 15:25:01 exampleuser CRON[111119]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 15:25:01 exampleuser CRON[111119]: pam_unix(cron:session): session closed for user root
+Nov 30 15:30:01 exampleuser CRON[111714]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 15:30:01 exampleuser CRON[111714]: pam_unix(cron:session): session closed for user root
+Nov 30 15:35:01 exampleuser CRON[113301]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 15:35:01 exampleuser CRON[113301]: pam_unix(cron:session): session closed for user root
+Nov 30 15:39:01 exampleuser CRON[115429]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 15:39:01 exampleuser CRON[115429]: pam_unix(cron:session): session closed for user root
+Nov 30 15:45:01 exampleuser CRON[115683]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 15:45:01 exampleuser CRON[115683]: pam_unix(cron:session): session closed for user root
+Nov 30 15:55:01 exampleuser CRON[116220]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 15:55:01 exampleuser CRON[116220]: pam_unix(cron:session): session closed for user root
+Nov 30 16:05:01 exampleuser CRON[117948]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 16:05:01 exampleuser CRON[117948]: pam_unix(cron:session): session closed for user root
+Nov 30 16:09:01 exampleuser CRON[118993]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 16:09:01 exampleuser CRON[118993]: pam_unix(cron:session): session closed for user root
+Nov 30 16:15:01 exampleuser CRON[119843]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 16:15:01 exampleuser CRON[119843]: pam_unix(cron:session): session closed for user root
+Nov 30 16:17:01 exampleuser CRON[119999]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 16:17:01 exampleuser CRON[119999]: pam_unix(cron:session): session closed for user root
+Nov 30 16:25:01 exampleuser CRON[122393]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 16:25:01 exampleuser CRON[122393]: pam_unix(cron:session): session closed for user root
+Nov 30 16:30:01 exampleuser CRON[123568]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 16:30:01 exampleuser CRON[123568]: pam_unix(cron:session): session closed for user root
+Nov 30 16:35:01 exampleuser CRON[125159]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 16:35:01 exampleuser CRON[125159]: pam_unix(cron:session): session closed for user root
+Nov 30 16:39:01 exampleuser CRON[126377]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 16:39:01 exampleuser CRON[126377]: pam_unix(cron:session): session closed for user root
+Nov 30 16:45:01 exampleuser CRON[129189]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 16:45:02 exampleuser CRON[129189]: pam_unix(cron:session): session closed for user root
+Nov 30 16:55:01 exampleuser CRON[132452]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 16:55:01 exampleuser CRON[132452]: pam_unix(cron:session): session closed for user root
+Nov 30 17:05:01 exampleuser CRON[135196]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 17:05:01 exampleuser CRON[135196]: pam_unix(cron:session): session closed for user root
+Nov 30 17:06:20 exampleuser sudo:    jonny : TTY=pts/0 ; PWD=/home/jonny ; USER=root ; COMMAND=/usr/bin/apt-get install wget apt-transport-https gnupg lsb-release
+Nov 30 17:06:20 exampleuser sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 30 17:06:21 exampleuser sudo: pam_unix(sudo:session): session closed for user root
+Nov 30 17:06:21 exampleuser sudo:    jonny : TTY=pts/0 ; PWD=/home/jonny ; USER=root ; COMMAND=/usr/bin/tee /usr/share/keyrings/trivy.gpg
+Nov 30 17:06:21 exampleuser sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 30 17:06:22 exampleuser sudo: pam_unix(sudo:session): session closed for user root
+Nov 30 17:06:22 exampleuser sudo:    jonny : TTY=pts/0 ; PWD=/home/jonny ; USER=root ; COMMAND=/usr/bin/tee -a /etc/apt/sources.list.d/trivy.list
+Nov 30 17:06:22 exampleuser sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 30 17:06:22 exampleuser sudo: pam_unix(sudo:session): session closed for user root
+Nov 30 17:06:22 exampleuser sudo:    jonny : TTY=pts/0 ; PWD=/home/jonny ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov 30 17:06:22 exampleuser sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 30 17:06:29 exampleuser sudo: pam_unix(sudo:session): session closed for user root
+Nov 30 17:06:29 exampleuser sudo:    jonny : TTY=pts/0 ; PWD=/home/jonny ; USER=root ; COMMAND=/usr/bin/apt-get install trivy
+Nov 30 17:06:29 exampleuser sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Nov 30 17:06:33 exampleuser pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 30 17:06:33 exampleuser pkexec[136109]: jonny: Executing command [USER=root] [TTY=unknown] [CWD=/home/jonny] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 30 17:06:40 exampleuser sudo: pam_unix(sudo:session): session closed for user root
+Nov 30 17:09:01 exampleuser CRON[136295]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 17:09:01 exampleuser CRON[136295]: pam_unix(cron:session): session closed for user root
+Nov 30 17:09:34 exampleuser pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Nov 30 17:09:34 exampleuser pkexec[136342]: jonny: Executing command [USER=root] [TTY=unknown] [CWD=/home/jonny] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Nov 30 17:15:01 exampleuser CRON[137766]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 17:15:01 exampleuser CRON[137766]: pam_unix(cron:session): session closed for user root
+Nov 30 17:17:01 exampleuser CRON[138050]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 17:17:01 exampleuser CRON[138050]: pam_unix(cron:session): session closed for user root
+Nov 30 17:25:01 exampleuser CRON[140009]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 17:25:01 exampleuser CRON[140009]: pam_unix(cron:session): session closed for user root
+Nov 30 17:30:01 exampleuser CRON[140728]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 17:30:01 exampleuser CRON[140728]: pam_unix(cron:session): session closed for user root
+Nov 30 17:35:01 exampleuser CRON[141381]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 17:35:01 exampleuser CRON[141381]: pam_unix(cron:session): session closed for user root
+Nov 30 17:39:01 exampleuser CRON[141943]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 17:39:01 exampleuser CRON[141943]: pam_unix(cron:session): session closed for user root
+Nov 30 17:45:01 exampleuser CRON[142248]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 30 17:45:01 exampleuser CRON[142248]: pam_unix(cron:session): session closed for user root
+Nov 30 17:51:22 exampleuser systemd-logind[1038]: Lid closed.
+Nov 30 17:51:22 exampleuser systemd-logind[1038]: Suspending...
+Dec  1 08:06:15 exampleuser systemd-logind[1038]: Lid opened.
+Dec  1 08:06:15 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Dec  1 08:06:43 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Dec  1 08:07:59 exampleuser systemd-logind[1038]: Watching system buttons on /dev/input/event16 (Razer Razer Basilisk V3 Keyboard)
+Dec  1 08:07:59 exampleuser systemd-logind[1038]: Watching system buttons on /dev/input/event18 (Razer Razer Basilisk V3)
+Dec  1 08:08:47 exampleuser systemd-logind[1038]: Lid closed.
+Dec  1 08:08:47 exampleuser systemd-logind[1038]: Suspending...
+Dec  1 10:44:47 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Dec  1 10:44:50 exampleuser CRON[143240]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  1 10:44:50 exampleuser CRON[143240]: pam_unix(cron:session): session closed for user root
+Dec  1 10:44:50 exampleuser CRON[143242]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  1 10:44:50 exampleuser CRON[143242]: pam_unix(cron:session): session closed for user root
+Dec  1 10:44:50 exampleuser CRON[143244]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  1 10:44:50 exampleuser CRON[143244]: pam_unix(cron:session): session closed for user root
+Dec  1 10:44:53 exampleuser systemd-logind[1038]: Lid opened.
+Dec  1 10:44:53 exampleuser systemd-logind[1038]: Lid closed.
+Dec  1 10:44:53 exampleuser systemd-logind[1038]: Lid opened.
+Dec  1 10:44:55 exampleuser systemd-logind[1038]: Lid closed.
+Dec  1 10:45:01 exampleuser systemd-logind[1038]: Lid opened.
+Dec  1 10:45:01 exampleuser CRON[143288]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  1 10:45:01 exampleuser CRON[143288]: pam_unix(cron:session): session closed for user root
+Dec  1 10:45:06 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Dec  1 10:50:43 exampleuser systemd-logind[1038]: Lid closed.
+Dec  1 10:50:43 exampleuser systemd-logind[1038]: Suspending...
+Dec  1 10:52:04 exampleuser systemd-logind[1038]: Lid opened.
+Dec  1 10:52:04 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Dec  1 10:52:07 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Dec  1 10:55:01 exampleuser CRON[144007]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  1 10:55:01 exampleuser CRON[144007]: pam_unix(cron:session): session closed for user root
+Dec  1 10:55:56 exampleuser systemd-logind[1038]: Lid closed.
+Dec  1 10:55:56 exampleuser systemd-logind[1038]: Suspending...
+Dec  2 09:16:42 exampleuser systemd-logind[1038]: Lid opened.
+Dec  2 09:16:42 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Dec  2 09:16:42 exampleuser systemd-logind[1038]: Watching system buttons on /dev/input/event16 (Razer Razer Basilisk V3 Keyboard)
+Dec  2 09:16:42 exampleuser systemd-logind[1038]: Watching system buttons on /dev/input/event18 (Razer Razer Basilisk V3)
+Dec  2 09:17:01 exampleuser CRON[144301]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 09:17:01 exampleuser CRON[144301]: pam_unix(cron:session): session closed for user root
+Dec  2 09:25:01 exampleuser CRON[144699]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 09:25:01 exampleuser CRON[144699]: pam_unix(cron:session): session closed for user root
+Dec  2 09:30:01 exampleuser CRON[144744]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 09:30:01 exampleuser CRON[144744]: pam_unix(cron:session): session closed for user root
+Dec  2 09:35:01 exampleuser CRON[144788]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 09:35:01 exampleuser CRON[144788]: pam_unix(cron:session): session closed for user root
+Dec  2 09:39:01 exampleuser CRON[144825]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 09:39:01 exampleuser CRON[144825]: pam_unix(cron:session): session closed for user root
+Dec  2 12:15:29 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Dec  2 12:16:15 exampleuser CRON[145141]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 12:16:15 exampleuser CRON[145141]: pam_unix(cron:session): session closed for user root
+Dec  2 12:16:15 exampleuser CRON[145143]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 12:16:15 exampleuser CRON[145143]: pam_unix(cron:session): session closed for user root
+Dec  2 12:17:01 exampleuser CRON[145156]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 12:17:01 exampleuser CRON[145156]: pam_unix(cron:session): session closed for user root
+Dec  2 12:19:13 exampleuser systemd-logind[1038]: Lid closed.
+Dec  2 12:19:13 exampleuser systemd-logind[1038]: Suspending...
+Dec  2 12:24:31 exampleuser systemd-logind[1038]: Lid opened.
+Dec  2 12:24:31 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Dec  2 12:25:11 exampleuser CRON[145327]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 12:25:11 exampleuser CRON[145327]: pam_unix(cron:session): session closed for user root
+Dec  2 12:27:02 exampleuser systemd-logind[1038]: Watching system buttons on /dev/input/event18 (Razer Razer Basilisk V3)
+Dec  2 12:27:02 exampleuser systemd-logind[1038]: Watching system buttons on /dev/input/event16 (Razer Razer Basilisk V3 Keyboard)
+Dec  2 12:27:39 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Dec  2 12:30:01 exampleuser CRON[145753]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 12:30:01 exampleuser CRON[145753]: pam_unix(cron:session): session closed for user root
+Dec  2 12:30:40 exampleuser sudo:    jonny : TTY=pts/0 ; PWD=/var ; USER=root ; COMMAND=/usr/bin/su
+Dec  2 12:30:40 exampleuser sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec  2 12:30:40 exampleuser su: (to root) root on pts/1
+Dec  2 12:30:40 exampleuser su: pam_unix(su:session): session opened for user root(uid=0) by jonny(uid=0)
+Dec  2 12:35:01 exampleuser CRON[146595]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 12:35:01 exampleuser CRON[146595]: pam_unix(cron:session): session closed for user root
+Dec  2 12:39:01 exampleuser CRON[146647]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 12:39:01 exampleuser CRON[146647]: pam_unix(cron:session): session closed for user root
+Dec  2 12:45:01 exampleuser CRON[146730]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 12:45:01 exampleuser CRON[146730]: pam_unix(cron:session): session closed for user root
+Dec  2 12:55:01 exampleuser CRON[146823]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 12:55:01 exampleuser CRON[146823]: pam_unix(cron:session): session closed for user root
+Dec  2 13:05:01 exampleuser CRON[146914]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 13:05:01 exampleuser CRON[146914]: pam_unix(cron:session): session closed for user root
+Dec  2 13:09:01 exampleuser CRON[146948]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 13:09:01 exampleuser CRON[146948]: pam_unix(cron:session): session closed for user root
+Dec  2 13:15:01 exampleuser CRON[147033]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 13:15:02 exampleuser CRON[147033]: pam_unix(cron:session): session closed for user root
+Dec  2 13:17:01 exampleuser CRON[147050]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 13:17:01 exampleuser CRON[147050]: pam_unix(cron:session): session closed for user root
+Dec  2 13:25:01 exampleuser CRON[147123]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 13:25:01 exampleuser CRON[147123]: pam_unix(cron:session): session closed for user root
+Dec  2 13:30:01 exampleuser CRON[147182]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 13:30:01 exampleuser CRON[147182]: pam_unix(cron:session): session closed for user root
+Dec  2 13:35:01 exampleuser CRON[147227]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 13:35:01 exampleuser CRON[147227]: pam_unix(cron:session): session closed for user root
+Dec  2 13:35:29 exampleuser systemd-logind[1038]: Lid closed.
+Dec  2 13:35:29 exampleuser systemd-logind[1038]: Suspending...
+Dec  2 13:37:08 exampleuser systemd-logind[1038]: Lid opened.
+Dec  2 13:37:08 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Dec  2 13:37:13 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Dec  2 13:39:01 exampleuser CRON[147994]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 13:39:01 exampleuser CRON[147994]: pam_unix(cron:session): session closed for user root
+Dec  2 13:45:01 exampleuser CRON[149871]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 13:45:01 exampleuser CRON[149871]: pam_unix(cron:session): session closed for user root
+Dec  2 13:45:21 exampleuser su: pam_unix(su:session): session closed for user root
+Dec  2 13:45:21 exampleuser sudo: pam_unix(sudo:session): session closed for user root
+Dec  2 13:52:58 exampleuser gnome-keyring-daemon[2431]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+Dec  2 13:55:02 exampleuser CRON[156799]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 13:55:02 exampleuser CRON[156799]: pam_unix(cron:session): session closed for user root
+Dec  2 14:05:01 exampleuser CRON[157429]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 14:05:01 exampleuser CRON[157429]: pam_unix(cron:session): session closed for user root
+Dec  2 14:09:01 exampleuser CRON[157699]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 14:09:01 exampleuser CRON[157699]: pam_unix(cron:session): session closed for user root
+Dec  2 14:15:01 exampleuser CRON[158013]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 14:15:01 exampleuser CRON[158013]: pam_unix(cron:session): session closed for user root
+Dec  2 14:17:01 exampleuser CRON[158156]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 14:17:01 exampleuser CRON[158156]: pam_unix(cron:session): session closed for user root
+Dec  2 14:17:51 exampleuser systemd-logind[1038]: Lid closed.
+Dec  2 14:17:51 exampleuser systemd-logind[1038]: Suspending...
+Dec  2 14:22:11 exampleuser systemd-logind[1038]: Lid opened.
+Dec  2 14:22:11 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Dec  2 14:22:46 exampleuser systemd-logind[1038]: Watching system buttons on /dev/input/event18 (Razer Razer Basilisk V3)
+Dec  2 14:22:46 exampleuser systemd-logind[1038]: Watching system buttons on /dev/input/event16 (Razer Razer Basilisk V3 Keyboard)
+Dec  2 14:22:52 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Dec  2 14:25:02 exampleuser CRON[158982]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 14:25:02 exampleuser CRON[158982]: pam_unix(cron:session): session closed for user root
+Dec  2 14:30:01 exampleuser CRON[159578]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 14:30:01 exampleuser CRON[159578]: pam_unix(cron:session): session closed for user root
+Dec  2 14:35:01 exampleuser CRON[160721]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 14:35:01 exampleuser CRON[160721]: pam_unix(cron:session): session closed for user root
+Dec  2 14:39:01 exampleuser CRON[161189]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 14:39:01 exampleuser CRON[161189]: pam_unix(cron:session): session closed for user root
+Dec  2 14:44:01 exampleuser systemd-logind[1038]: Lid closed.
+Dec  2 14:44:01 exampleuser systemd-logind[1038]: Suspending...
+Dec  2 14:45:33 exampleuser systemd-logind[1038]: Lid opened.
+Dec  2 14:45:33 exampleuser systemd-logind[1038]: Operation 'sleep' finished.
+Dec  2 14:45:37 exampleuser gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=jonny
+Dec  2 14:45:43 exampleuser gdm-password]: message repeated 2 times: [ pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=jonny]
+Dec  2 14:45:48 exampleuser gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=jonny
+Dec  2 14:45:52 exampleuser gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=jonny
+Dec  2 14:45:55 exampleuser gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=jonny
+Dec  2 14:46:02 exampleuser gdm-password]: message repeated 2 times: [ pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=jonny]
+Dec  2 14:46:06 exampleuser gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=jonny
+Dec  2 14:46:18 exampleuser gdm-password]: message repeated 4 times: [ pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=jonny]
+Dec  2 14:46:26 exampleuser CRON[163298]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 14:46:26 exampleuser CRON[163298]: pam_unix(cron:session): session closed for user root
+Dec  2 14:47:37 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Dec  2 14:55:01 exampleuser CRON[164209]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 14:55:01 exampleuser CRON[164209]: pam_unix(cron:session): session closed for user root
+Dec  2 15:05:01 exampleuser CRON[166387]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 15:05:01 exampleuser CRON[166387]: pam_unix(cron:session): session closed for user root
+Dec  2 15:09:01 exampleuser CRON[166858]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 15:09:01 exampleuser CRON[166858]: pam_unix(cron:session): session closed for user root
+Dec  2 15:15:01 exampleuser CRON[168009]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 15:15:01 exampleuser CRON[168009]: pam_unix(cron:session): session closed for user root
+Dec  2 15:17:01 exampleuser CRON[168173]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 15:17:01 exampleuser CRON[168173]: pam_unix(cron:session): session closed for user root
+Dec  2 15:25:01 exampleuser CRON[169651]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 15:25:01 exampleuser CRON[169651]: pam_unix(cron:session): session closed for user root
+Dec  2 15:30:01 exampleuser CRON[170317]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 15:30:01 exampleuser CRON[170317]: pam_unix(cron:session): session closed for user root
+Dec  2 15:35:01 exampleuser CRON[171099]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 15:35:01 exampleuser CRON[171099]: pam_unix(cron:session): session closed for user root
+Dec  2 15:39:01 exampleuser CRON[171310]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 15:39:01 exampleuser CRON[171310]: pam_unix(cron:session): session closed for user root
+Dec  2 15:45:01 exampleuser CRON[171837]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 15:45:01 exampleuser CRON[171837]: pam_unix(cron:session): session closed for user root
+Dec  2 15:55:01 exampleuser CRON[174116]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 15:55:01 exampleuser CRON[174116]: pam_unix(cron:session): session closed for user root
+Dec  2 16:05:01 exampleuser CRON[175099]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 16:05:01 exampleuser CRON[175099]: pam_unix(cron:session): session closed for user root
+Dec  2 16:08:58 exampleuser gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Dec  2 16:08:58 exampleuser gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [jonny]
+Dec  2 16:09:00 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Dec  2 16:09:01 exampleuser CRON[175530]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 16:09:01 exampleuser CRON[175530]: pam_unix(cron:session): session closed for user root
+Dec  2 16:15:01 exampleuser CRON[175958]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 16:15:01 exampleuser CRON[175958]: pam_unix(cron:session): session closed for user root
+Dec  2 16:17:01 exampleuser CRON[176219]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 16:17:01 exampleuser CRON[176219]: pam_unix(cron:session): session closed for user root
+Dec  2 16:25:02 exampleuser CRON[177229]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 16:25:02 exampleuser CRON[177229]: pam_unix(cron:session): session closed for user root
+Dec  2 16:30:01 exampleuser CRON[177545]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 16:30:01 exampleuser CRON[177545]: pam_unix(cron:session): session closed for user root
+Dec  2 16:31:07 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Dec  2 16:32:10 exampleuser gdm-password]: gkr-pam: unlocked login keyring
+Dec  2 16:35:01 exampleuser CRON[178280]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec  2 16:35:01 exampleuser CRON[178280]: pam_unix(cron:session): session closed for user root
