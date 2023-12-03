@@ -8,7 +8,7 @@ load_dotenv()
 
 client = OpenAI() 
 
-limit = 128000 # depends on the model
+limit = 3700 # depends on the model
 
 
 messag = None # Set to none each time you want to start a new conversation
@@ -35,7 +35,7 @@ def analizeLog(prompt):
             messag.append({"role": "system", "content": str(bot_message)})
     messag.append({"role": "user", "content": str(prompt)})
 
-    response = client.chat.completions.create(model="gpt-4-1106-preview",
+    response = client.chat.completions.create(model="gpt-3.5-turbo",
         messages=messag)
     result = ''
     for choice in response.choices:

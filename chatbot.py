@@ -14,9 +14,7 @@ from telegram.ext import (
     MessageHandler,
     filters,
 )
-import sys
 
-sys.path.append('/home/joff/repos/LauzHack23/')
 from ai.gpt_core import askGPT
 
 load_dotenv()
@@ -72,7 +70,8 @@ async def process_file(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 
     print("JAUMET")
     print(response)
-    await update.message.reply_text(tmp_file, caption=f"The answer: {response}")
+    print("JAUMET ENDS")
+    await update.message.reply_text(rf"The answer: {response}")
 
     return AWAITING_USER #answer question
 
