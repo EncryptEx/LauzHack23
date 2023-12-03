@@ -15,7 +15,7 @@ from telegram.ext import (
     filters,
 )
 
-from ai.gpt_core import askGPT
+from ai.gpt_core import askAnotherQuestion, askGPT, hardRestartConversation
 
 load_dotenv()
 TELEGRAM_KEY = os.getenv("TELEGRAM_KEY")
@@ -64,22 +64,36 @@ async def process_file(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     tmp_file = "tmp/attachment.txt"
     await attachment_file.download_to_drive(tmp_file)
 
-    ## LLAMAR A función de Jaumet i Paulet
-    # read txt
-    response = askGPT(tmp_file, "What is the latest log?")
-
-    print("JAUMET")
-    print(response)
-    print("JAUMET ENDS")
-    await update.message.reply_text(rf"The answer: {response}")
+    await update.message.reply_text(rf"Write your question!")
+    
+    await get_and_answer(update, context)
 
     return AWAITING_USER #answer question
+    
+async def get_and_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):    
+    print("JUAMET")
+    prompt_question = update.message.text
+    print(prompt_question)
+    print("JUAMET")
+    tmp_file = "tmp/attachment.txt"
+    response = askGPT(tmp_file, prompt_question)
+
+    
+    await update.message.reply_text(rf"The answer: {response}")
+
+async def get_and_answer_two(update: Update, context: ContextTypes.DEFAULT_TYPE):    
+    
+    prompt_question = update.message.text
+    response = askAnotherQuestion(prompt_question)
+
+    await update.message.reply_text(rf"The answer: {response}")
 
 async def answer_question(update: Update, context: ContextTypes.DEFAULT_TYPE):
     #await update.message.reply_text("Write your question and press enter, \n if you have no questions send /cancel")
-    await update.message.reply_text(text="Write your question and press enter, \n if you have no questions send /cancel", reply_markup=ForceReply(selective=True))
+    await update.message.reply_text(text="Write your next question and press enter, \n if you have no questions send /cancel", reply_markup=ForceReply(selective=True))
 
-    return QUESTION
+    await get_and_answer_two(update, context)
+    return AWAITING_USER
 
 async def questions(update: Update, context: ContextTypes.DEFAULT_TYPE):
     question = "debug"
@@ -93,6 +107,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     """Cancels and ends the conversation."""
     user = update.message.from_user
     logger.info("User %s canceled the conversation.", user.first_name)
+    hardRestartConversation()
     await update.message.reply_text(
         "Bye!", reply_markup=ReplyKeyboardRemove()
     )
